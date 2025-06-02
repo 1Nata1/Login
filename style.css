@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(stardew-valley-2560-x-1440-background-gkvzx4cplgse4ymy.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 10px;
+  color: black;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.container h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 40px;
+  outline: none;
+  font-size: 16px;
+  color: black;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: black;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.Lembrar {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px 0 15px;
+}
+
+.Lembrar label input {
+  accent-color: black;
+  margin-right: 5px;
+}
+
+.Lembrar a {
+  text-decoration: none;
+  color: black;
+}
+
+.Lembrar a:hover {
+  text-decoration: underline;
+}
+
+.Login {
+  width: 100%;
+  height: 50px;
+  background-color: green;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.Login:hover {
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.Cadastro {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.Cadastro a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.Cadastro a:hover {
+  text-decoration: underline;
+}
